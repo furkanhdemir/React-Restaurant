@@ -1,0 +1,83 @@
+.favContainer {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+    url("../images/restaurant-2.jpg");
+
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: #fff;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.favContent {
+  height: calc(100vh - 80px);
+  max-height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.favContainer h2 {
+  font-family: "Caveat", sans-serif;
+  font-size: 72px;
+  margin: 1rem 0;
+  z-index: 10;
+}
+
+/* .favContainer h3 {
+  font-size: clamp(1rem, 3vw, 3rem);
+  margin: 1rem 0;
+} */
+
+.favContainer p {
+  margin-bottom: 1rem;
+  width: 45vw;
+  font-size: 32px;
+  width: 400px;
+  text-align: right;
+}
+
+.textContent {
+  padding: 10px;
+  background: #7c0b0b9a;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  width: 100%;
+}
+
+.favImage {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  box-shadow: 3px 5px #7c0b0b;
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 935px) {
+  .favContent {
+    flex-direction: column;
+  }
+}
+
+.favBtn {
+  font-family: "Caveat", sans-serif;
+  font-size: 24px;
+  padding: 1rem 4rem;
+  border: none;
+  width: 250px;
+  align-self: center;
+  background: #7c0b0b;
+  color: #fff;
+  transition: 0.2 ease-out;
+}
+
+.favBtn:hover {
+  background: #7c0b0b9a;
+  cursor: pointer;
+}

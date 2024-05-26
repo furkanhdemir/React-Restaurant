@@ -1,0 +1,44 @@
+.footerContainer {
+  background-color: #0d0909;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 300px;
+  max-width: 100vw;
+  padding-top: 50px;
+}
+
+.footerColumn {
+  padding: 16px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 1rem;
+}
+
+.footerColumn div {
+  margin: 5px;
+}
+
+.footerColumn a {
+  text-decoration: none;
+  color: white;
+}
+
+h4 {
+  font-family: "Caveat", sans-serif;
+
+  font-size: 42px;
+  padding: 20px;
+}
+
+.footerColumn p {
+  font-size: 24px;
+}
+
+.footerColumn p:hover {
+  color: #b81111;
+}
